@@ -1,0 +1,11 @@
+.jumbotron {
+  background-image: url(./pexels-stas-knop-1626481.jpg);
+  background-size: 100% 250%;
+  height: 300px;
+  text-align: right;
+}
+
+.h1-jumbo {
+  text-align: right;
+  font-weight: bold;
+}
