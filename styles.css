@@ -9,3 +9,17 @@
   text-align: right;
   font-weight: bold;
 }
+
+.card {
+  position: relative;
+}
+
+.badge-card {
+  position: absolute;
+  margin-left: 0.1rem;
+}
+
+.badge {
+  background-color: #ffe641;
+  color: black;
+}
