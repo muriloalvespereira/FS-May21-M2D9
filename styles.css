@@ -32,5 +32,48 @@
   color: rgb(0, 0, 0);
   min-height: 300px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-bk {
+  background-color: rgb(194, 193, 193);
+}
+
+.col-footer {
+  justify-content: center;
   align-content: center;
+}
+
+.margin-bi {
+  margin-right: 16px;
+}
+
+.trash-empty {
+  position: relative;
+  cursor: pointer;
+}
+
+.trash-fill {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(-4px);
+  transform: translateX(-16px);
+  transition: all 0.2s ease;
+}
+
+.trash-empty:hover .trash-fill {
+  opacity: 1;
+}
+
+.trash-empty:hover .trash-off {
+  opacity: 0;
+}
+
+.trash-empty:active .trash-fill {
+  font-size: 20px;
+}
+
+.trash-empty:focus .trash-fill {
+  border: 1px solid black;
 }
